@@ -3,44 +3,44 @@ using namespace std;
 typedef long long int ll;
 int main()
 {
-    ll t;
-    cin >> t;
-    while (t--)
+    ll test;
+    cin >> test;
+    while (test--)
     {
-        ll n;
-        cin >> n;
-        int m = n % 8;
-        if (m == 1)
+        ll num;
+        cin >> num;
+        int mum = num % 8;
+        if (mum == 1)
         {
-            cout << n + 3 << "LB" << endl;
+            cout << num + 3 << "LB" << endl;
         }
-        if (m == 2)
+        if (mum == 2)
         {
-            cout << n + 3 << "MB" << endl;
+            cout << num + 3 << "MB" << endl;
         }
-        if (m == 3)
+        if (mum == 3)
         {
-            cout << n + 3 << "UB" << endl;
+            cout << num + 3 << "UB" << endl;
         }
-        if (m == 4)
+        if (mum == 4)
         {
-            cout << n - 3 << "LB" << endl;
+            cout << num - 3 << "LB" << endl;
         }
-        if (m == 5)
+        if (mum == 5)
         {
-            cout << n - 3 << "MB" << endl;
+            cout << num - 3 << "MB" << endl;
         }
-        if (m == 6)
+        if (mum == 6)
         {
-            cout << n - 3 << "UB" << endl;
+            cout << num - 3 << "UB" << endl;
         }
-        if (m == 7)
+        if (mum == 7)
         {
-            cout << n + 1 << "SU" << endl;
+            cout << num + 1 << "SU" << endl;
         }
-        if (m == 0)
+        if (mum == 0)
         {
-            cout << n - 1 << "SL" << endl;
+            cout << num - 1 << "SL" << endl;
         }
     }
 }
